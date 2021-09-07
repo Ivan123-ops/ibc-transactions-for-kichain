@@ -1,5 +1,5 @@
 # ibc-transactions-for-kichain
-##How to perform IBC transactions in Kichain
+## How to perform IBC transactions in Kichain
 
 This guide describes how to perform IBC transactions between Kichain and Rizon networks. 
 We will be setting up the repeater on Rizon node.
