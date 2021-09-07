@@ -68,6 +68,48 @@ Change standart timeout
 nano ~/.relayer/config/config.yaml
 timeout: 30s  
 ```
+CONFIG FILE SHOULD LOOK AS FOLLOWING
+```
+global:
+  api-listen-addr: :5183
+  timeout: 10s
+  light-cache-size: 30
+chains:
+- key: stakes
+  chain-id: groot-011
+  rpc-addr: http://localhost:26657
+  account-prefix: rizon
+  gas-adjustment: 1.5
+  gas-prices: 0.025uatolo
+  trusting-period: 48h
+- key: kistakes
+  chain-id: kichain-t-4
+  rpc-addr: https://rpc-challenge.blockchain.ki:443
+  account-prefix: tki
+  gas-adjustment: 1.5
+  gas-prices: 0.025utki
+  trusting-period: 48h
+paths:
+  transfer :
+    src:
+      chain-id: groot-011
+      client-id: 07-tendermint-18
+      connection-id: connection-32
+      channel-id: channel-27
+      port-id: transfer
+      order: UNORDERED
+      version: ics20-1
+    dst:
+      chain-id: kichain-t-4
+      client-id: 07-tendermint-101
+      connection-id: connection-103
+      channel-id: channel-108
+      port-id: transfer
+      order: UNORDERED
+      version: ics20-1
+    strategy:
+      type: naive
+```
 Next, you will need to get some coins in each wallet. After that, check the availability of funds
 ```
 rly q balance groot-011
