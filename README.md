@@ -120,6 +120,10 @@ https://dev.mintscan.io/rizon/txs/9145F2DC34050FC15635B693A0495548EB4191961527BC
 https://dev.mintscan.io/rizon/txs/1B09C7788AD15E846DBEC18451BEC20FB0E63EC28177EAB093F8B085AD3AF63E
 
 Let's try to send tokens from Kichain to Rizon
+
+```
+rly tx transfer kichain-t-4 groot-011 1000000utki rizon1jf8azthwxx8qmyqw8w0zh02p5pz2jmzw7uexxq --path transfer            
+```
 https://ki.thecodes.dev/tx/628EB0039EFD8EA9EEB1B560CBF8E3CB76A808243777921410715D5870D7C18E
 https://ki.thecodes.dev/tx/289700B0F468F998848FECE98C38889ED238C13799D2ED3EF7F47DB70F9A29B2
   
