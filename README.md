@@ -127,4 +127,4 @@ rly tx transfer kichain-t-4 groot-011 1000000utki rizon1jf8azthwxx8qmyqw8w0zh02p
 https://ki.thecodes.dev/tx/628EB0039EFD8EA9EEB1B560CBF8E3CB76A808243777921410715D5870D7C18E
 https://ki.thecodes.dev/tx/289700B0F468F998848FECE98C38889ED238C13799D2ED3EF7F47DB70F9A29B2
   
-We have performed IBC transaction between Rizon and Kichain blockchains
+We have performed IBC transaction between Rizon and Kichain blockchains.
